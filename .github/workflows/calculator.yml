@@ -1,4 +1,4 @@
-name: CI/CD using github
+name: CI/CD using github heeloo
 on: push
 jobs:
     CICD:
