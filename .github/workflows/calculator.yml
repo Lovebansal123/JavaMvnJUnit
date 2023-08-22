@@ -25,6 +25,6 @@ jobs:
          - name: create output
            run: mvn package
          - name: target folder
-           run: cd target/classes
-         - name: target folder
-           run: java com.mycompany.app.Calculator
+           run: |
+            cd target/classes
+            java com.mycompany.app.Calculator 
